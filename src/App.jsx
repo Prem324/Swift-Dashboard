@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/profile" element={<Profile />} />
         <Route path="/dashboard" element={<CommentsDashboard />} />
-        <Route path="*" element={<Navigate to="/dashboard" replace />} />
+        <Route path="*" element={<Navigate to="/profile" replace />} />
       </Routes>
     </Router>
   );
